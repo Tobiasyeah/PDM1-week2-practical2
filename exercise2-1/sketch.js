@@ -14,7 +14,7 @@ function draw() {
 }
 
 
-function mouseIsPressed() {
+function mousePressed() {
     if (switched === 0) {
         backgroundC = (255, 0, 150)
         circleC = (0)
@@ -25,10 +25,4 @@ function mouseIsPressed() {
         circleC = (255, 0, 150)
         switched = 0
     }
-}
-
-function draw() {
-    background(backgroundC)
-    fill(circleC)
-    circle(200, 200, 300)
 }
